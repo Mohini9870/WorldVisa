@@ -1,0 +1,86 @@
+.nav {
+  color: #d8e2e8;
+  width: 100%;
+}
+
+.signup {
+  height: 40px;
+  width: 80px;
+  border: 1px solid #3b3b3b;
+  color: #3b3b3b;
+  border-radius: 10px;
+}
+.link {
+  margin-left: 150px;
+  margin-bottom: auto;
+  color: #c5c5c5;
+}
+
+.link:hover {
+  color: #3b3b3b;
+}
+.heading-canada {
+  margin-left: 600px;
+}
+
+.para {
+  margin: 3px 250px 35px 250px;
+  font-size: small;
+  color: #d3d3d3;
+}
+.heading {
+  margin-left: 250px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* .btn-primary {
+  width: 250px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+} */
+.card {
+  width: 370px;
+  border: 1px solid #fff;
+}
+
+.card-text {
+  font-size: small;
+  color: #d3d3d3;
+}
+.link a {
+  text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .heading-canada {
+    margin-left: 15rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .heading-canada {
+    margin-left: 17rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .heading-canada {
+    margin-left: 17rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}

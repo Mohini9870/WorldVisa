@@ -1,0 +1,301 @@
+.nav {
+  color: #d8e2e8;
+  width: 100%;
+}
+
+.signup {
+  height: 40px;
+  width: 80px;
+  border: 1px solid #3b3b3b;
+  color: #3b3b3b;
+  border-radius: 10px;
+}
+.link {
+  margin-left: 150px;
+  margin-bottom: auto;
+  color: #c5c5c5;
+}
+
+.link:hover {
+  color: #3b3b3b;
+}
+.immi {
+  margin-left: 630px;
+  padding: 10px;
+  text-decoration: none;
+}
+.heading-canada {
+  margin-left: 600px;
+}
+
+.para {
+  margin: 3px 250px 35px 250px;
+  font-size: small;
+  color: #d3d3d3;
+}
+.heading {
+  margin-left: 250px;
+  font-size: 30px;
+  font-weight: 700;
+}
+/* .btn-primary {
+  width: 250px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+} */
+.card {
+  width: 370px;
+  border: 1px solid #fff;
+}
+
+.cardone {
+  width: 26rem;
+  margin-left: 300px;
+}
+.cardtwo {
+  width: 22rem;
+}
+.cardthree {
+  width: 26rem;
+  margin-left: 300px;
+}
+.cardfourth {
+  width: 22rem;
+  margin-right: 175px;
+}
+.cardfive {
+  width: 26rem;
+  margin-left: 300px;
+}
+.card-text {
+  font-size: small;
+  color: #d3d3d3;
+}
+.right {
+  background-color: #edf4f7;
+  /* width: 50%; */
+}
+.link a {
+  text-decoration: none;
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  .nav {
+    width: 61rem;
+  }
+  .immi {
+    margin-left: 30rem;
+  }
+  .heading-canada {
+    margin-left: 470px;
+  }
+  .para {
+    width: 35rem;
+  }
+  .heading {
+    width: 39rem;
+    margin-left: 200px;
+    font-size: 20px;
+  }
+  .hstack {
+    flex-direction: column;
+  }
+  .cardone {
+    margin-left: 350px;
+  }
+  .cardtwo {
+    margin-left: 22rem;
+  }
+  .cardfourth {
+    margin-left: 19rem;
+  }
+  .left {
+    width: 60rem;
+  }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+  .nav {
+    width: 65.3rem;
+  }
+  .immi {
+    margin-left: 470px;
+  }
+  .heading-canada {
+    margin-left: 29rem;
+  }
+  .para {
+    width: 60%;
+    margin: 0 9rem 2rem;
+  }
+  .heading {
+    margin-left: 100px;
+    font-size: 21px;
+  }
+  .hstack {
+    flex-direction: column;
+  }
+  .cardone {
+    margin-right: 15rem;
+  }
+  .cardtwo {
+    margin-left: 3.5rem;
+  }
+
+  .cardthree,
+  .cardfourth,
+  .cardfive {
+    margin-left: 14rem;
+  }
+  .left {
+    width: 61rem;
+  }
+  .right {
+    width: 61rem;
+  }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+  .immi {
+    margin-left: 20rem;
+  }
+  .heading-canada {
+    margin-left: 19rem;
+  }
+  .para {
+    width: 60%;
+    margin: 0 9rem 2rem;
+  }
+  .heading {
+    margin-left: 100px;
+    font-size: 21px;
+  }
+  .hstack {
+    flex-direction: column;
+  }
+  .cardone {
+    margin-right: 15rem;
+  }
+  .cardtwo {
+    margin-left: 3.5rem;
+  }
+
+  .cardthree,
+  .cardfourth,
+  .cardfive {
+    margin-left: 14rem;
+  }
+  .left {
+    width: 61rem;
+  }
+  .right {
+    width: 61rem;
+  }
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .nav {
+    width: 60rem;
+  }
+  .immi {
+    margin-left: 420px;
+  }
+  .heading-canada {
+    margin-left: 26rem;
+  }
+  .para {
+    margin: 3px 180px 35px 180px;
+    width: 40rem;
+  }
+  .heading {
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 40rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .nav {
+    width: 57rem;
+  }
+  .immi {
+    margin-left: 420px;
+  }
+  .heading-canada {
+    margin-left: 26rem;
+  }
+  .para {
+    margin: 3px 150px 35px 180px;
+    width: 90%;
+  }
+  .heading {
+    margin-left: 10rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 40rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .nav {
+    width: 61rem;
+  }
+  .immi {
+    margin-left: 420px;
+  }
+  .heading-canada {
+    margin-left: 25rem;
+  }
+  .para {
+    margin: 3px 150px 35px 180px;
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* .nav {
+    width: 100%;
+  } */
+  .immi {
+    margin-left: 490px;
+  }
+  .heading-canada {
+    margin-left: 30rem;
+  }
+  .heading {
+    width: 100%;
+  }
+  .hstack {
+    margin-left: 2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .nav {
+    width: 100%;
+  }
+  .immi {
+    margin-left: 500px;
+  }
+  .heading-canada {
+    margin-left: 30rem;
+  }
+  .para {
+    margin-right: 20rem;
+  }
+  .heading {
+    margin-left: 12rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 100%;
+  }
+}

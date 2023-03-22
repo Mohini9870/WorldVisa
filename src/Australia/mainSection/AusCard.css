@@ -1,0 +1,16 @@
+.card {
+  width: 370px;
+  border: 1px solid #fff;
+}
+
+.card-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: small;
+  color: #d3d3d3;
+  padding-left: 1rem;
+}
+/* .prscore {
+  padding-top: 1rem;
+} */

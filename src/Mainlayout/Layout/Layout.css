@@ -1,0 +1,624 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif !important;
+}
+.container-fluid-padding {
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+.banner-bg {
+  /* position: fixed; */
+  background: url("../../img/home/banner-bg.png") no-repeat;
+  background-position: top right;
+  background-size: 51% 100%;
+  /* height: 90vh; */
+  padding: 112px 0 50px 0;
+}
+.banner-content {
+  /* margin-left: 4rem; */
+  width: 100%;
+}
+.banner-content h4 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #df6951;
+}
+.banner-content h5 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #181e4b;
+}
+.banner-content h5 span {
+  position: relative;
+  display: inline-block;
+}
+.banner-content h5 span img {
+  position: absolute;
+  bottom: 0;
+}
+.banner-content p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+  margin: 0;
+}
+.btn {
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.btn-v span {
+  width: 52px;
+  height: 52px;
+  background: #df6951;
+  box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.btn-v {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  color: #686d77;
+}
+.btn-assessment {
+  width: 75%;
+  font-size: 1.3rem;
+  font-weight: 600;
+  /* padding-left: 3rem; */
+}
+/* .img-girl {
+  width: 35rem;
+  height: 35rem;
+  margin-top: 0;
+} */
+
+/* Services */
+.services-right h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #df6951;
+}
+.services-right h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #14183e;
+  margin-top: 26px;
+  margin-bottom: 50px;
+}
+.service-left {
+  margin: 0 auto;
+  text-align: center;
+}
+.img-logo {
+  width: 70px;
+  height: 70px;
+  background: #ffc365;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-card h5 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  color: #1e1d4c;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+.service-card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.service-card {
+  margin-bottom: 50px;
+}
+.services-button {
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Apply Now */
+.apply-now {
+  text-align: center;
+}
+.apply-now h4 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #df6951;
+  text-align: center;
+}
+.apply-now h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 80px;
+}
+/* Easy Fast and Process */
+.processes h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+}
+.processes h5 {
+  font-weight: 700;
+  font-size: 42px;
+  text-transform: capitalize;
+  color: #14183e;
+}
+.processes-inn-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.processes-img-box {
+  width: 47px;
+  height: 48px;
+  background: #f0bb1f;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.processes-img-box.assessmen-repor-color {
+  background: #f15a2b;
+}
+.processes-img-box.immigration-guide {
+  background: #006380;
+}
+.processes-content {
+  margin-left: 20px;
+  width: 89%;
+}
+.processes-content h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #5e6282;
+  margin: 0;
+}
+.processes-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #5e6282;
+  margin: 0;
+}
+.processes-inn-box {
+  margin-left: 3rem;
+  margin-bottom: 50px;
+}
+.processes {
+  margin-top: 2rem;
+  margin-left: 3rem;
+
+  margin-bottom: 50px;
+}
+.services-button.buy-now-btn {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 3rem;
+  width: 50%;
+}
+.services-left.processes-img img {
+  margin-top: -40px;
+}
+
+/* Immigration News */
+.immigration-news-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.immigration-news-heading h4 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+  margin-bottom: 20px;
+}
+.immigration-news-heading h5 {
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: capitalize;
+  color: #14183e;
+}
+.immigration-news-card {
+  border-radius: 24px;
+  box-shadow: 4px 20px 22px -6px #ddd;
+  position: relative;
+}
+
+.immigration-news-card-img-box img {
+  width: 100%;
+}
+.immigration-news-card-content a {
+  display: inline-block;
+  margin-top: 20px;
+}
+.immigration-news-card-img-box {
+  height: 426px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.immigration-news-card-content {
+  padding: 30px 20px;
+  background: #fff;
+}
+.immigration-news-card-content h6 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.decore-img {
+  position: absolute;
+  right: -70px;
+  bottom: 42px;
+  z-index: -1;
+}
+/* Responsive  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .container-fluid-padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .banner-content h5 {
+    font-size: 23px;
+  }
+  .banner-content h4 {
+    font-size: 16px;
+  }
+  .banner-bg {
+    background-position: bottom right;
+    background-size: 100% 42%;
+    padding: 100px 0 50px 0;
+  }
+  .services-right h4 {
+    font-size: 16px;
+  }
+  .services-right h5 {
+    font-size: 26px;
+    margin-top: 6px;
+  }
+  .service-right {
+    font-size: 16px;
+  }
+  .service-left {
+    margin-top: 0;
+  }
+  .services-button .buy-now-btn {
+    width: 100%;
+    padding: 15px 40px;
+  }
+  .processes h5 {
+    font-size: 26px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 26px;
+  }
+  .decore-img {
+    display: none;
+  }
+  .immigration-news-card-img-box {
+    height: 280px;
+  }
+  .immigration-news-card {
+    margin-bottom: 60px;
+  }
+  .service-left.processes-img img {
+    margin-top: 0;
+  }
+  .processes-inn-box {
+    flex-direction: column;
+  }
+  .processes-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-fluid-padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .banner-content h5 {
+    font-size: 23px;
+  }
+  .banner-content h4 {
+    font-size: 16px;
+  }
+  .banner-bg {
+    background-position: top right;
+    background-size: 57% 100%;
+    padding: 100px 0 50px 0;
+  }
+  .services-right h5 {
+    font-size: 26px;
+    margin-top: 6px;
+  }
+  .service-right {
+    font-size: 16px;
+  }
+  .service-left {
+    margin-top: 0;
+  }
+  .services-button .buy-now-btn {
+    width: 100%;
+    padding: 15px 40px;
+  }
+  .processes h5 {
+    font-size: 26px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 26px;
+  }
+  .decore-img {
+    display: none;
+  }
+  .immigration-news-card-img-box {
+    height: 280px;
+  }
+  .immigration-news-card {
+    margin-bottom: 60px;
+  }
+  .service-left.processes-img img {
+    margin-top: 0;
+  }
+  .processes-inn-box {
+    flex-direction: column;
+  }
+  .processes-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-fluid-padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .banner-content h5 {
+    font-size: 23px;
+  }
+  .banner-content h4 {
+    font-size: 16px;
+  }
+  .services-right h5 {
+    font-size: 26px;
+    margin-top: 6px;
+  }
+  .service-right {
+    font-size: 16px;
+  }
+  .service-left {
+    margin-top: 0;
+  }
+  .services-button .buy-now-btn {
+    width: 100%;
+    padding: 15px 40px;
+  }
+  .processes-full h5 {
+    font-size: 26px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 26px;
+  }
+  .decore-img {
+    display: none;
+  }
+  .immigration-news-card-img-box {
+    height: 280px;
+  }
+  .immigration-news-card {
+    margin-bottom: 60px;
+  }
+  .services-left.processes-img img {
+    margin-top: 0;
+  }
+  .processes-inn-box {
+    flex-direction: column;
+  }
+  .processes-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-fluid-padding {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .banner-content h5 {
+    font-size: 40px;
+  }
+  .banner-content h4 {
+    font-size: 16px;
+  }
+  .services-right h5 {
+    font-size: 40px;
+    margin-top: 6px;
+  }
+  .service-right {
+    font-size: 16px;
+  }
+  .service-left {
+    margin-top: 0;
+  }
+  .services-button .buy-now-btn {
+    width: 100%;
+    padding: 15px 40px;
+  }
+  .processes h5 {
+    font-size: 40px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 40px;
+  }
+  .decore-img {
+    display: none;
+  }
+  .immigration-news-card-img-box {
+    height: 280px;
+  }
+  .immigration-news-card {
+    margin-bottom: 60px;
+  }
+  .services-left.processes-img img {
+    margin-top: 0;
+  }
+  .processes-inn-box {
+    flex-direction: column;
+  }
+  .processes-content {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .banner-content h5 {
+    font-size: 47px;
+  }
+  .banner-content h4 {
+    font-size: 18px;
+  }
+  .services-right h5 {
+    font-size: 40px;
+  }
+  .service-left {
+    margin-top: 0;
+  }
+  .services-button .buy-now-btn {
+    width: 62%;
+  }
+  .processes h5 {
+    font-size: 40px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 45px;
+  }
+  .immigration-news-card-img-box {
+    height: 220px;
+  }
+  .immigration-news-card-content h6 {
+    font-size: 14px;
+  }
+  .services-left.processes-img img {
+    margin-top: 0;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+  .banner-content h5 {
+    font-size: 47px;
+  }
+  .banner-content h4 {
+    font-size: 18px;
+  }
+  .services-right h5 {
+    font-size: 50px;
+  }
+  .service-left {
+    margin-top: -120px;
+  }
+  .services-button .buy-now-btn {
+    width: 62%;
+  }
+  .processes h5 {
+    font-size: 40px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 45px;
+  }
+  .immigration-news-card-img-box {
+    height: 220px;
+  }
+  .immigration-news-card-content h6 {
+    font-size: 14px;
+  }
+  .services-left.processes-img img {
+    margin-top: -120px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1799.98px) {
+  .banner-content h5 {
+    font-size: 65px;
+  }
+  .banner-content h4 {
+    font-size: 18px;
+  }
+  .services-right h5 {
+    font-size: 50px;
+  }
+  .service-left {
+    margin-top: -120px;
+  }
+  .services-button .buy-now-btn {
+    width: 62%;
+  }
+  .processes h5 {
+    font-size: 50px;
+  }
+  .immigration-news-heading h5 {
+    font-size: 50px;
+  }
+  .immigration-news-card-img-box {
+    height: 220px;
+  }
+  .immigration-news-card-content h6 {
+    font-size: 14px;
+  }
+  .services-left.processes-img img {
+    margin-top: -120px;
+  }
+}

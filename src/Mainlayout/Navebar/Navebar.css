@@ -1,0 +1,22 @@
+.menu-banner-up {
+  position: absolute !important;
+  width: 100%;
+  padding: 20px !important;
+  /* z-index: 1; */
+}
+.menu-banner-up .nav-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: #9497a1;
+  padding-left: 20px !important;
+  display: inline-block;
+  padding-right: 20px !important;
+}
+.menu-banner-up .nav-link:hover {
+  color: #2281c5;
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .menu-banner-up-img img {
+    width: 100px;
+  }
+}

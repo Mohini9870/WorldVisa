@@ -1,0 +1,141 @@
+#footer {
+  margin-top: 20px;
+  /* margin-top: 500px; */
+  padding: 2vmax;
+  background-color: #ffffff;
+  color: #000;
+  display: flex;
+  /* align-items: center; */
+}
+
+.leftFooter {
+  width: 20%;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+/* .leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline; */
+
+.leftFooter > p {
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  color: #868b8e;
+  text-align: center;
+  font-size: 1vmax;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 40%;
+
+  text-align: center;
+}
+/* .midFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline; */
+
+.midFooter > a {
+  font-size: 4vmax;
+  font-family: "Roboto";
+  color: #868b8e;
+  text-decoration: none;
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 30%;
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+} */
+/* .rightFooter > a {
+    text-decoration: none;
+    font-size: 1.3vmax;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: white;
+    transition: all 0.5s;
+    margin: 0.5vmax;
+  }
+  
+  .rightFooter > a:hover {
+    color: #645e5e;
+  } */
+.follow {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.address {
+  color: #868b8e;
+}
+.btn {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-weight: 200;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: "#808080";
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}

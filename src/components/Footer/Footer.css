@@ -1,0 +1,133 @@
+/* footer */
+
+.footer-content h5 {
+  font-weight: 700;
+  font-size: 21px;
+  color: #080809;
+}
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-content ul li a {
+  font-weight: 500;
+  font-size: 18px;
+  color: #5e6282;
+  text-decoration: none;
+  padding: 4px 0;
+  display: inline-block;
+}
+.footer-content ul li a:hover {
+  color: #2281c5;
+}
+.footer-content p {
+  font-weight: 500;
+  font-size: 13px;
+  color: #5e6282;
+  margin: 30px 0 0 0;
+}
+.copy-rights {
+  padding: 10px;
+}
+.copy-rights p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #5e6282;
+  margin: 0;
+  text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .footer-content ul li a {
+    font-size: 14px;
+  }
+  .footer-content h5 {
+    font-size: 16px;
+  }
+  .dropdown-menu.show {
+    border: none;
+  }
+  .home_sec3_left ul li {
+    padding: 10px 20px;
+  }
+  .team-main-heading h3 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .footer-content ul li a {
+    font-size: 14px;
+  }
+  .footer-content h5 {
+    font-size: 16px;
+  }
+  .dropdown-menu.show {
+    border: none;
+  }
+  .team-main-heading h3 {
+    font-size: 30px;
+  }
+  .home_sec3_left ul li {
+    margin: 0 7px 0 0;
+    padding: 10px 12px;
+  }
+  .followers p {
+    font-size: 20px;
+  }
+  .home_sec3_left {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .footer-content ul li a {
+    font-size: 14px;
+  }
+  .footer-content h5 {
+    font-size: 16px;
+  }
+  .dropdown-menu.show {
+    border: none;
+  }
+  .home_sec3_left {
+    padding-bottom: 50px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footer-content ul li a {
+    font-size: 14px;
+  }
+  .footer-content h5 {
+    font-size: 16px;
+  }
+  .dropdown-menu.show {
+    border: none;
+  }
+  .fasy-fast-processes-inn-box {
+    margin-bottom: 30px;
+  }
+  .home_sec3_left h4 {
+    font-size: 18px;
+  }
+  .team-content-box {
+    padding: 15px;
+  }
+  .home_sec3_left ul li {
+    margin: 0px 5px 0 0;
+    padding: 10px 15px;
+  }
+  .followers p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .home_sec3_left ul li {
+    margin: 0 7px 0 0;
+    padding: 10px 15px;
+  }
+}
+/* @media (min-width: 1400px) and (max-width: 1599.98px) {
+}
+@media (min-width: 1600px) and (max-width: 1799.98px) {
+} */

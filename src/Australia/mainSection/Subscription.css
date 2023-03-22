@@ -1,0 +1,41 @@
+.subs {
+  height: 20rem;
+  width: 100%;
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  background-color: #25266e;
+  text-align: center;
+  column-gap: 50px;
+}
+.send button {
+  height: 1.75rem;
+  text-decoration: none;
+  margin-left: 0px;
+  background-color: #fff;
+  color: black;
+  border-radius: 0%;
+  margin-top: -1px;
+}
+.email {
+  background-color: rgb(180, 201, 241);
+  border: 1px solid #fff;
+  text-decoration: none;
+  /* border-radius: 5px; */
+}
+
+/* .help {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+     text-align: center; 
+  } */
+p {
+  text-align: center;
+  color: #c5c5c5;
+  font-size: 0.7rem;
+}
+.btn {
+  margin-left: 1rem;
+}

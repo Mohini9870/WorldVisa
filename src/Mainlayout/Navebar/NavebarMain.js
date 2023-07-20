@@ -24,8 +24,8 @@ const NavebarMain = () => {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/packages">Package</Nav.Link>
               <NavDropdown title="Immigration" id="collasible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Canada</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="canada">Canada</NavDropdown.Item>
+                <NavDropdown.Item href="australia">
                   Austraila
                 </NavDropdown.Item>
               </NavDropdown>
